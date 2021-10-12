@@ -118,6 +118,24 @@ h4:hover {
 .banner {
     display: inline-block; 
 }
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+.menucompras {
+    display: flex;
+    flex-direction: row;
+    
+}
+.menulogin {
+    display: flex;
+}
+li {
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+}
 
 
 @media (max-width: 360px){
@@ -154,11 +172,7 @@ h4:hover {
     nav {
         display: flex;
     }
-    .menucompras {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+
     .menulogin {
         flex-direction: row-reverse;
     }
